@@ -31,7 +31,7 @@ for (let i = 1; i <= 1000; i++) {
     category: category,
     price: Math.random() * 80 + 10,
     description: "A useful gadget for pets that helps owners care for dogs and cats more easily.",
-    image: "https://via.placeholder.com/300x200?text=Pet+Gadget",
+    image: "https://picsum.photos/300/200?random=" + i,
     link: "#"
   });
 }
