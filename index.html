@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetGadgetHub.nl</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="topbar">
+        <div class="logo">Pet<span>GadgetHub</span>.nl</div>
+        <a href="#producten" class="btn btn-secondary">Bekijk producten</a>
+      </div>
+
+      <div class="hero">
+        <div>
+          <h1>De slimste gadgets voor honden en katten op één plek</h1>
+          <p>
+            PetGadgetHub.nl helpt je snel de handigste huisdierproducten te vinden. Van automatische voerbakken en drinkfonteinen tot GPS trackers en slimme camera’s.
+          </p>
+          <div class="cta-row">
+            <a href="#producten" class="btn btn-primary">Start met bekijken</a>
+            <a href="#over-ons" class="btn btn-secondary">Hoe werkt het?</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h3>Waarom deze site sterk is</h3>
+          <ul class="hero-points">
+            <li>Simpele affiliate-opzet zonder eigen voorraad</li>
+            <li>Makkelijk later uit te breiden met meer producten</li>
+            <li>Geschikt voor SEO en advertenties</li>
+            <li>Je kunt prijzen en links later snel vervangen</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="producten">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Populaire pet gadgets</h2>
+            <p>Kies een categorie of zoek direct op productnaam.</p>
+          </div>
+        </div>
+
+        <div class="filters">
+          <input type="text" id="searchInput" placeholder="Zoek bijvoorbeeld op GPS, voerbak of camera" />
+          <select id="categoryFilter">
+            <option value="all">Alle categorieën</option>
+            <option value="GPS & Tracking">GPS & Tracking</option>
+            <option value="Voeding">Voeding</option>
+            <option value="Water & Drinken">Water & Drinken</option>
+            <option value="Camera & Monitoring">Camera & Monitoring</option>
+            <option value="Speelgoed">Speelgoed</option>
+            <option value="Verzorging">Verzorging</option>
+          </select>
+          <select id="sortFilter">
+            <option value="default">Standaard sortering</option>
+            <option value="low-high">Prijs laag → hoog</option>
+            <option value="high-low">Prijs hoog → laag</option>
+            <option value="name">Naam A → Z</option>
+          </select>
+        </div>
+
+        <div id="productGrid" class="grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="over-ons">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Hoe PetGadgetHub werkt</h2>
+            <p>Een snelle en veilige eerste versie voor jouw affiliate-site.</p>
+          </div>
+        </div>
+
+        <div class="about">
+          Op PetGadgetHub.nl verzamel je interessante producten voor huisdieren op één overzichtelijke plek. Bezoekers klikken vanuit jouw site door naar de aanbieder. Daardoor hoef je geen voorraad te houden, geen betalingen te verwerken en geen retourproces op te zetten. In deze eerste versie kun je later jouw echte affiliate-links, eigen teksten en echte productafbeeldingen invoeren.
+        </div>
+        <div class="about">
+          Disclaimer: Sommige links op deze website zijn affiliate links. Wanneer je via deze links een product koopt, kan PetGadgetHub.nl een kleine commissie ontvangen zonder extra kosten voor jou.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 PetGadgetHub.nl — Vergelijk slimme huisdiergadgets op één plek.
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
